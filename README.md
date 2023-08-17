@@ -1,32 +1,34 @@
 # Anomaly Detection on Washer Dataset
 
 ## Problem Statement
-The goal of this project is to perform anomaly detection on a washer dataset using effective machine learning algorithms, with a focus on Variational AutoEncoder (VAE). The model is trained on the "washer_ok" dataset and then tested on the "washer_ng" dataset to predict and detect anomalies, visualized through generated heat maps.
+
+The project aims to perform anomaly detection on a washer dataset using advanced learning algorithms, including the Variational AutoEncoder (VAE) and its variations. The model is trained on the "washer_ok" dataset and subsequently tested on the "washer_ng" dataset. The objective is to predict and detect anomalies while generating informative heat maps.
 
 ## Overview
-Anomaly detection is a fundamental task in the field of Computer Vision. In this project, we leverage the power of "Image Segmentation" techniques to detect anomalies within washer images. Four distinct algorithms have been employed for this purpose, each meticulously chosen after thorough dataset analysis and algorithmic research. The application of these algorithms on the dataset serves as a powerful means of uncovering anomalies.
+
+Anomaly detection is a pivotal task within the realm of Computer Vision. This project explores the utilization of "Image Segmentation" techniques for anomaly detection, showcasing the power of cutting-edge algorithms. Four distinct algorithms have been applied to the dataset, each meticulously selected after comprehensive analysis and research. The resultant application of these algorithms contributes to the detection of anomalies.
 
 ## Dataset
-The dataset comprises RGB images representing different instances of washers:
+
+The dataset consists of RGB images portraying various instances of washers:
+
 - `washer_ok`: 30 images
 - `washer_ng`: 92 images
 
-## Data Split
-The data is divided into distinct sets for training, validation, and testing:
-- Training Data: `washer_ok` (30 images)
-- Validation Data: `washer_ng_kizu` (10 images)
-- Test Data: `washer_ng_sabi` (4 images)
-
 ## Algorithms
-The project employs the following cutting-edge algorithms to address the anomaly detection task:
 
-1. **Variational AutoEncoder (VAE)**: The VAE algorithm showcases its ability to uncover latent patterns within the washer dataset.
-2. **U-Net**: Leveraging the U-Net architecture, the model demonstrates its prowess in accurately segmenting washer images and highlighting anomalies.
-3. **U-Net Xception Style**: This variant of the U-Net algorithm, inspired by Xception, enhances the anomaly detection capabilities.
-4. **MultiResUnet**: The MultiResUnet algorithm further enriches the anomaly detection process with its multi-resolution approach.
+The project incorporates the following sophisticated algorithms to address the anomaly detection task:
+
+1. **Variational AutoEncoder (VAE)**: The VAE algorithm is at the core of anomaly detection, capturing latent patterns within the washer dataset.
+
+2. **U-Net**: Leveraging the U-Net architecture, the model showcases its ability to segment washer images accurately and identify anomalies.
+
+3. **U-Net Xception Style**: A variant inspired by Xception, this algorithm enhances anomaly detection with its unique approach.
+
+4. **MultiResUnet**: Employing a multi-resolution strategy, the MultiResUnet algorithm further refines anomaly detection.
 
 ## Reports
 
-For a detailed exploration of the methodologies, results, and insights, please refer to the comprehensive report available in both English and Japanese versions.
+For an in-depth exploration of model architecture, training, and evaluation, please refer to the comprehensive report available in both English and Japanese versions. The report provides detailed insights into the methodologies employed and their outcomes.
 
-This project exemplifies the synergy between sophisticated machine learning algorithms and domain-specific anomaly detection, showcasing its potential in real-world applications.
+This project exemplifies the synergy between sophisticated machine learning algorithms and domain-specific anomaly detection, highlighting their potential for real-world applications.
